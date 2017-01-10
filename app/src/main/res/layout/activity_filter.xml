@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:text="Brandenburg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bBurg"
+        android:layout_weight="1"
+        />
+
+    <CheckBox
+        android:text="Charlottenburg-Wilmersdorf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cBurgWilmers"
+        android:layout_weight="1"
+        android:layout_below="@+id/bBurg"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="Friedrichshain-Kreuzberg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cBurgWilmers"
+        android:layout_alignParentStart="true"
+        android:id="@+id/fHainKberg" />
+
+    <CheckBox
+        android:text="Klaistow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fHainKberg"
+        android:layout_alignParentStart="true"
+        android:id="@+id/klaistow"
+        android:layout_alignEnd="@+id/fHainKberg" />
+
+    <CheckBox
+        android:text="Lichtenberg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/klaistow"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lBerg" />
+
+    <CheckBox
+        android:text="Marzahn-Hellersdorf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lBerg"
+        android:layout_alignParentStart="true"
+        android:id="@+id/mZahnHdorf" />
+
+    <CheckBox
+        android:text="Mitte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mZahnHdorf"
+        android:layout_alignParentStart="true"
+        android:id="@+id/mitte" />
+
+    <CheckBox
+        android:text="Neukölln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mitte"
+        android:layout_alignParentStart="true"
+        android:id="@+id/nKölln" />
+
+    <CheckBox
+        android:text="Pankow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nKölln"
+        android:layout_alignParentStart="true"
+        android:id="@+id/pankow" />
+
+    <CheckBox
+        android:text="Reinickendorf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pankow"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rDorf" />
+
+    <CheckBox
+        android:text="Spandau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rDorf"
+        android:layout_alignParentStart="true"
+        android:id="@+id/spandau" />
+
+    <CheckBox
+        android:text="Steglitz-Zehlendorf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spandau"
+        android:layout_alignParentStart="true"
+        android:id="@+id/sLitzZdorf" />
+
+    <CheckBox
+        android:text="Tempelhof-Schöneberg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sLitzZdorf"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tHofSberg" />
+
+    <CheckBox
+        android:text="Treptow-Köpenick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tHofSberg"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tTowKnick" />
+
+    <Button
+        android:text="Aktualisieren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_aktualisieren"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
